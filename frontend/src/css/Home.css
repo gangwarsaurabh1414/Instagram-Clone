@@ -1,0 +1,136 @@
+*{
+    
+    box-sizing: border-box;
+}
+.card{
+    max-width: 500px;
+    height: max-content;
+    margin: 25px auto;
+    border: 1px solid rgb(173 ,173,173);
+    border-radius: 5px;
+
+}   
+.card-header{
+    display: flex;
+    align-items: center;
+}
+.card-header > h5{
+    margin: 0;
+    padding: 11px;
+}
+
+.card-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-content{
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 4px;
+     padding: 3px 10px;
+    border-bottom: 1px solid rgb(173 ,173,173);
+     
+}
+
+.add-comment{
+    display: flex;
+    align-items: center;
+    padding: 0px 3px;
+}
+
+.add-comment input{
+    margin: 0;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.comment{
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #2699e6;
+
+}
+.favoriteIcon{
+    cursor: pointer;
+}
+.favoriteIcon.liked{
+    color: red;
+    font-weight: bolder;
+}
+
+.card-content button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.showComment{
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;;
+    left: 0;
+    background-color: rgba(16,16,13,0.4);
+    /* display: none; */
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 500px;
+}
+
+.postPic{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.postPic img{
+    object-fit: contain;
+    width: 100%;
+}
+.details{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment-section{
+    flex-grow: 4;
+    text-align: left;
+    margin-left: 10px;
+    overflow-y: auto;
+}
+.comment-section p>span{
+    color: black;
+}
+
+.close-comment{
+    position: fixed;
+    top: 2%;
+    right: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.close-comment .close-icon{
+    font-size: 3em;
+}

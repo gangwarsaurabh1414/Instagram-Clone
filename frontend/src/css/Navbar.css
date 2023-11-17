@@ -1,0 +1,43 @@
+.navbar{
+display: flex;
+justify-content: space-around;
+box-shadow: 1px 5px 5px #e0dcdc;
+
+}
+
+.navbar>img{
+    width: 10%;
+    object-fit: contain;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: baseline;
+}
+.navbar ul>a>li{
+    list-style: none;
+    padding: 1px 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.primaryBtn{
+cursor: pointer;
+font-weight: bolder;
+padding: 14px 25px;
+font-size: 0.8rem;
+border: none;
+color: white;
+background-color: #db183c;
+border-radius: 7px;
+margin-left: 20px;
+transition: all 0.25s ease;
+}
+
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219,24,44,0.6);
+}

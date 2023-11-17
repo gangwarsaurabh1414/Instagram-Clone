@@ -1,0 +1,86 @@
+.profile{
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.profile-frame{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-pic{
+    height: fit-content;
+}
+
+.profile-pic > img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.profile-data{
+    text-align: left;
+    margin-left: 2em;
+}
+
+.profile-data .profile-info{
+    display: flex;
+}
+
+.profile-data .profile-info p{
+    padding: 0px 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.gallery img{
+    width: 30%;
+    margin: 10px;
+    
+}
+
+.deletePost{
+    position: absolute;
+    /* right: 2%; */
+    top: 10px;
+    right: 10px;
+
+}
+.folowBtn {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 7px 17px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background-color: #2109fb;
+  border-radius: 7px;
+  margin-left: 20px;
+  transition: all 0.25s ease;
+}
+.folowBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px -10px #0115eb;
+}
+
+.changePic{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.upload-btn{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size:15px ;
+}
+.changePic div{
+    padding: 10px 80px;
+    border-top: 1px solid #00000030;
+}

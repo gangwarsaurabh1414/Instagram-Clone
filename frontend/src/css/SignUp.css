@@ -1,0 +1,71 @@
+.signUp{
+    background-image: url(../images/instaBg1.jpg);
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.form-container{
+    
+
+}
+.form{
+    background-color: #fff;
+    padding: 40px 9px;
+    border: 1px solid #aba4a4;
+    border-radius:1px;
+}
+
+.signUpLogo{
+    width: 200px;
+    object-fit: contain;
+    padding: 10px 0;
+    margin: 0px 90px;
+}
+
+.loginPara{
+color: rgb( 115, 115, 115);
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+}
+
+input{
+    padding: 5px;
+    margin: 3px 0;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.form>div{
+    width: 80%;
+    margin: auto;
+}
+
+#submit-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.form2{
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 30px;
+    border: 1px solid #aba4a4;
+    border-radius: 1px;
+}
+span{
+    color: blue;
+    cursor: pointer;
+    margin-left: 2px;
+}

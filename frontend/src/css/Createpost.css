@@ -1,0 +1,39 @@
+.createPost{
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173,173,173);
+}
+
+.main-div{
+    border-top: 1px solid rgb(173,173,173);
+}
+
+.post-header{
+    display: flex;
+}
+
+.post-header > h4{
+    margin: 3px auto;
+}
+#post-btn{
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    background: transparent;
+    color: #2699e6;
+}
+
+.details{
+   border-top: 1px solid rgb(173,173,173);
+}
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+}

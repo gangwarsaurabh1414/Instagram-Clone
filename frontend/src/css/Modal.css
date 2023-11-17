@@ -1,0 +1,100 @@
+
+.darkBg{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,0.4);
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+
+.centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.modal{
+    width: 270px;
+    height: 170px;
+    background-color:white;
+    border-radius: 2px;
+    /* display: flex; */
+}
+
+.modalHeader{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.heading{
+    display: flex;
+    margin-right: 45px;
+    color: black;
+    font-weight: bolder;
+}
+.closeBtn{
+    margin-top: 3px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    margin: 4px 4px;   
+    outline: none;
+    border: none;
+    background:#d3d3d3;
+    border-radius: 5px;
+}
+.closeBtn:hover{
+    background-color: #312f2f;
+    color: white;
+}
+.modalContent{
+    display: flex;
+    margin: 1.5em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionContainer{
+    display: flex;
+    justify-content:space-around ;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.actionContainer > button{
+    padding: 10px;
+    width: 90px;
+    border: none;
+    outline: none;
+}
+
+.logOutBtn{
+    background-color: red;
+    color: white;
+    
+}
+.logOutBtn:hover{
+    background-color: #0cb80c;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+}
+.cancelBtn{
+    background-color: black;
+    color: white;
+}
+
+.cancelBtn:hover{
+    background-color: #706d6d;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+}
